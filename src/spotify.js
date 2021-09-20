@@ -1,5 +1,5 @@
 export const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://raulilma.github.io/FP-RPL/";
 const clientId = "0a1a53b7fecd4b7a94850fdf7ab68b3c";
 
 const scopes = ["user-read-currently-playing", "user-read-recently-played", "user-read-playback-state", "user-top-read", "user-modify-playback-state"];
