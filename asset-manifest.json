@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/FP-RPL/static/css/main.5523d0ed.chunk.css",
+    "main.js": "/FP-RPL/static/js/main.68536124.chunk.js",
+    "main.js.map": "/FP-RPL/static/js/main.68536124.chunk.js.map",
+    "runtime-main.js": "/FP-RPL/static/js/runtime-main.4a5dd15f.js",
+    "runtime-main.js.map": "/FP-RPL/static/js/runtime-main.4a5dd15f.js.map",
+    "static/css/2.4ee2f7a8.chunk.css": "/FP-RPL/static/css/2.4ee2f7a8.chunk.css",
+    "static/js/2.94670b46.chunk.js": "/FP-RPL/static/js/2.94670b46.chunk.js",
+    "static/js/2.94670b46.chunk.js.map": "/FP-RPL/static/js/2.94670b46.chunk.js.map",
+    "index.html": "/FP-RPL/index.html",
+    "static/css/2.4ee2f7a8.chunk.css.map": "/FP-RPL/static/css/2.4ee2f7a8.chunk.css.map",
+    "static/css/main.5523d0ed.chunk.css.map": "/FP-RPL/static/css/main.5523d0ed.chunk.css.map",
+    "static/js/2.94670b46.chunk.js.LICENSE.txt": "/FP-RPL/static/js/2.94670b46.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a5dd15f.js",
+    "static/css/2.4ee2f7a8.chunk.css",
+    "static/js/2.94670b46.chunk.js",
+    "static/css/main.5523d0ed.chunk.css",
+    "static/js/main.68536124.chunk.js"
+  ]
+}
