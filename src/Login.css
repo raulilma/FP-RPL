@@ -1,0 +1,25 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #171717;
+}
+
+.login > img {
+  width: 35%;
+  margin-bottom: 0;
+}
+
+.login > a {
+  margin: -15% 0 0 0;
+  padding: 0;
+  background-image: url(https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  border: none;
+  cursor: pointer;
+}
+.login > a:hover {
+  text-decoration: none;
+}
