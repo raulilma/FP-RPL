@@ -1,0 +1,99 @@
+* {
+  user-select: none;
+}
+.green-button {
+  padding: 0.5em 1.5em;
+  background-color: rgb(26, 167, 26);
+  border: 0;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 800;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+.input-text {
+  font-size: 20px;
+  margin-right: 0.5em;
+}
+
+.search-button {
+  padding: 0.5em;
+}
+
+.row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.track-card {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 2em;
+  width: 50%;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.track-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 0.5em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 1em 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1em;
+}
+
+.label-text {
+  margin-bottom: 0.5em;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 1em;
+}
+
+.list-tracks {
+  max-height: 231px;
+  overflow-y: scroll;
+  text-align: left;
+}
