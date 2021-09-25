@@ -1,0 +1,44 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #171717;
+  background: linear-gradient(132deg, #141e30, #734b6d, #ffffff);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  margin: 0px;
+}
+
+.cube {
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px #d7d4e4;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+}
+
+.login > img {
+  width: 35%;
+  margin-bottom: 0;
+}
+
+.login > a {
+  margin: -15% 0 0 0;
+  padding: 0;
+  background-image: url(https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  border: none;
+  cursor: pointer;
+}
+.login > a:hover {
+  text-decoration: none;
+}

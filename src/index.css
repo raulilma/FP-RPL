@@ -1,0 +1,396 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-weight: 300;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+}
+
+body ::-webkit-input-placeholder {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-weight: 300;
+}
+
+body :-ms-input-placeholder {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  font-weight: 300;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: url("http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg");
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+}
+
+header .overlay {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient(135deg, #1b1b1b 10%, #363636 100%);
+}
+
+.footery {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: rgb(59, 59, 59);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+p {
+  color: white;
+  font-size: 14px;
+}
+
+.wrapper {
+  background: -webkit-linear-gradient(top left, #141e30 0%, #734b6d 100%);
+  background: -moz-linear-gradient(top left, #141e30 0%, #734b6d 100%);
+  background: -o-linear-gradient(top left, #141e30 0%, #734b6d 100%);
+  background: linear-gradient(to bottom right, #141e30 0%, #734b6d 100%);
+  position: absolute;
+  top: 50;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+form {
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+
+form input {
+  display: block;
+  appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  transition-duration: 0.25s;
+  font-weight: 300;
+}
+
+form textarea {
+  display: block;
+  appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 250px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: white;
+  transition-duration: 0.25s;
+  font-weight: 300;
+}
+
+form input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+form input:focus {
+  background-color: white;
+  width: 300px;
+  color: #141e30;
+}
+
+form button {
+  appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #141e30;
+  border-radius: 3px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 18px;
+  transition-duration: 0.25s;
+}
+
+form button:hover {
+  background-color: #f5f7f9;
+}
+
+.grafikkotak {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.grafikkotak li {
+  position: absolute;
+  list-style: none;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.15);
+  bottom: -160px;
+  -webkit-animation: square 25s infinite;
+  animation: square 25s infinite;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+.grafikkotak li:nth-child(1) {
+  left: 10%;
+}
+
+.grafikkotak li:nth-child(2) {
+  left: 20%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 2s;
+  animation-duration: 17s;
+}
+
+.grafikkotak li:nth-child(3) {
+  left: 25%;
+  animation-delay: 4s;
+}
+
+.grafikkotak li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-duration: 22s;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.grafikkotak li:nth-child(5) {
+  left: 70%;
+}
+.grafikkotak li:nth-child(6) {
+  left: 80%;
+  width: 120px;
+  height: 120px;
+  animation-delay: 3s;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.grafikkotak li:nth-child(7) {
+  left: 32%;
+  width: 160px;
+  height: 160px;
+  animation-delay: 7s;
+}
+
+.grafikkotak li:nth-child(8) {
+  left: 55%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 15s;
+  animation-duration: 40s;
+}
+
+.grafikkotak li:nth-child(9) {
+  left: 25%;
+  width: 10px;
+  height: 10px;
+  animation-delay: 2s;
+  animation-duration: 40s;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.grafikkotak li:nth-child(10) {
+  left: 90%;
+  width: 160px;
+  height: 160px;
+  animation-delay: 11s;
+}
+
+@-webkit-keyframes square {
+  0% {
+    transform: translateY(-1000px);
+  }
+  100% {
+    transform: translateY(0) rotate(600deg);
+  }
+}
+
+@keyframes square {
+  0% {
+    transform: translateY(-1000px);
+  }
+  100% {
+    transform: translateY(0) rotate(600deg);
+  }
+}
+
+.bn3 {
+  display: inline-block;
+  padding: 0.5em 1.7em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid rgb(255, 255, 255);
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.bn3:hover {
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  padding: 25px 30px;
+  margin: 40px 0;
+  color: rgb(104, 247, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  margin-right: 50px;
+}
+
+a:hover {
+  background: rgb(104, 247, 255);
+  color: #050801;
+  box-shadow: 0 0 5px rgb(104, 247, 255), 0 0 25px rgb(104, 247, 255), 0 0 50px rgb(104, 247, 255), 0 0 200px rgb(104, 247, 255);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+a:nth-child(1) {
+  filter: hue-rotate(270deg);
+}
+
+a:nth-child(2) {
+  filter: hue-rotate(110deg);
+}
+
+a span {
+  position: absolute;
+  display: block;
+}
+
+a span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(360deg, transparent, rgb(104, 247, 255));
+  animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(270deg, transparent, rgb(104, 247, 255));
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+a span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(180deg, transparent, rgb(104, 247, 255));
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgb(104, 247, 255));
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
